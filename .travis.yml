@@ -2,7 +2,7 @@ language: node_js
 env:
   - CXX=g++-5
 addons:
-  firefox: "49.0.2"
+  firefox: "51.0.1"
 
 node_js:
  - "7.6.0"
