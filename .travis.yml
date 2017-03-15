@@ -3,10 +3,6 @@ env:
   - CXX=g++-5
 addons:
   firefox: "49.0.2"
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-5
+
 node_js:
  - "7.6.0"
