@@ -29,8 +29,8 @@ describe('Map load test', function() {
             driver.findElement(By.css('.loadDemoButton')).click();
             driver.sleep(3000);
             driver.getCurrentUrl().then(function(url) {
-                assert.equal(url, index + '#edit', 'File loaded url did not match');
-                done();
+                assert.equal(url, index, 'File loaded url did not match');
+                return done();
             });
         });
 
@@ -43,7 +43,7 @@ describe('Map load test', function() {
             driver.findElement(By.css('.loadDemoButton')).click();
             driver.sleep(3000);
             driver.getCurrentUrl().then(function(url) {
-                assert.equal(url, index + '#edit', 'File loaded url did not match');
+                assert.equal(url, index, 'File loaded url did not match');
                 done();
             });
         });
@@ -56,7 +56,7 @@ describe('Map load test', function() {
             driver.findElement(By.css('.loadDemoButton')).click();
             driver.sleep(3000);
             driver.getCurrentUrl().then(function(url) {
-                assert.equal(url, index + '#edit', 'File loaded url did not match');
+                assert.equal(url, index, 'File loaded url did not match');
                 done();
             });
         });
@@ -70,7 +70,7 @@ describe('Map load test', function() {
             driver.findElement(By.css('.loadDemoButton')).click();
             driver.sleep(3000);
             driver.getCurrentUrl().then(function(url) {
-                assert.equal(url, index + '#edit', 'File loaded url did not match');
+                assert.equal(url, index, 'File loaded url did not match');
                 done();
             });
         });
@@ -84,7 +84,7 @@ describe('Map load test', function() {
             driver.findElement(By.css('.loadDemoButton')).click();
             driver.sleep(3000);
             driver.getCurrentUrl().then(function(url) {
-                assert.equal(url, index + '#edit', 'File loaded url did not match');
+                assert.equal(url, index, 'File loaded url did not match');
                 done();
             });
         });
